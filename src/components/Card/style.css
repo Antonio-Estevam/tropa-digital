@@ -1,0 +1,60 @@
+article{
+    margin-top: 15px;
+    background: #fff;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+
+article .image img{
+    width: 100%;
+}
+article .image{
+    display: flex;
+}
+article legend{
+    width:90px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.494);    
+    display: flex;
+    padding: 4px;
+    border-radius:8px;
+    align-items: center;
+    margin-left: -100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+article legend img {
+    width: 25px !important;
+    opacity: 0.7;
+}
+
+article legend p {
+    color: rgba(255, 255, 255, 0.761);
+    margin-left: 5px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+article .text{
+    text-align: left;
+    margin-top: 10px;
+    font-family: 'Advent Pro', sans-serif;
+    font-weight: 400;
+}
+
+article .text strong{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+article .text p{
+    font-size: 12px;
+}
+
+@media (max-width:900px){
+    
+}

@@ -1,0 +1,160 @@
+#page-auth{
+    background-color: #fff;
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    width:56%;
+    padding: 80px 0px 80px 100px;
+    display : flex;
+    flex-direction: column;
+    margin-top:100px;
+    
+}
+
+main img{
+    align-self: left;
+    width: 150%;
+    max-width: 420px;
+    margin-left: 90px;
+}
+
+main h1{
+    font-family: 'Advent Pro', sans-serif;
+    color: #00000070;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+main h1 strong {
+    color: #FF7C3A;
+}
+
+aside{
+    overflow:hidden;
+    width:44%;
+    height:100vh;
+    overflow: hidden;
+}
+
+aside img {
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    
+} 
+
+form{
+    margin-left: 60px;
+    margin-top: 21px;
+    display : flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form .input-text{
+    width: 70%;
+    max-width: 407px;
+    border: 1px solid #0000001a;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #000000ba;
+    padding:10px 12px;
+    font-family: Advent Pro;
+    font-weight: 400;
+}
+
+form .input-text::-moz-placeholder{
+    color: #00000059;
+}
+
+form .input-text:hover{
+    border-color: #FF7C3A;
+
+}
+
+form .access {
+    max-width: 150px;
+    padding:10px 20px;
+    color: #ffffff;
+    background: #2EAFB2;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    transition: filter 0.5s;
+    cursor: pointer;
+}
+
+form .access:hover {
+    filter: brightness(0.9);
+}
+
+@keyframes float{
+    0%,100%{
+        transform:translatey(0)
+    }
+    50%{
+        transform:translatey(-15px)
+    }
+
+}
+.dev img {
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+    width: 50%;
+    max-width: 510px;
+    animation: float 6s ease-in-out infinite;
+}
+
+
+@media (max-width:1200px){
+    main img{
+        width: 90%;
+        margin-left: 30px;
+    }
+}
+
+
+@media (max-width:900px){
+    main img{
+        max-width: 80%;
+    }
+}
+
+@media (max-width:700px){
+    #page-auth{
+        flex-direction: column;
+    }
+
+    main {
+       padding: 0px;
+       width: 90%; 
+
+    }
+
+    main img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+    }
+
+    main h1 {
+        margin-top: 40px;
+    }
+
+    aside{
+        position: absolute;
+        width: 100%;
+        height: 40px;
+        bottom: 0px;
+    }
+}
