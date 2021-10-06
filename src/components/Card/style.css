@@ -55,6 +55,33 @@ article .text p{
     font-size: 12px;
 }
 
-@media (max-width:900px){
+@media (max-width:1025px){
+    article legend{
+        width: fit-content;
+        margin-left: -70px;
+        white-space: nowrap;
+    }
+    article legend img {
+        width: 15px !important;
+    }
+
+    article legend p {
+        font-size: 10px;
+        margin-left: 2px;
+    }
+}
+
+@media (max-width:800px){
     
+    article .image > img {
+        min-width: 200px;
+    }
+
+    article .text strong {
+        font-size: 12px;
+    }
+
+    article .text{
+        font-size: 10px;
+    }
 }
